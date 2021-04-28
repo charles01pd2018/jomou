@@ -1,8 +1,7 @@
+
 const DefaultLayout = ({
     children
 }) => {
-
-    var SITE_NAME = 'JAWNZ';
 
     return (
         <>

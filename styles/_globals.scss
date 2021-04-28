@@ -20,46 +20,12 @@
 }
 
 /*--------------------------------------------------------------
-# Scroll Bar
---------------------------------------------------------------*/
-// firefox
-* {
-  scrollbar-width: 1.3rem;
-  scrollbar-color: var(--main-color) var(--main-background);
-}
-
-// chrome, edge, safari
-*::-webkit-scrollbar {
-  width: 1.3rem;
-}
-
-*::-webkit-scrollbar-track {
-  background: var(--main-background);
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
-  border: 3px solid var(--middle-color);
-}
-
-/*--------------------------------------------------------------
-# Highlight Text Color
---------------------------------------------------------------*/
-::selection {
-  background: var(--main-background); // WebKit/Blink Browsers
-}
-::-moz-selection {
-  background: var(--main-background); // Gecko Browsers
-}
-
-/*--------------------------------------------------------------
 # Site Variables
 --------------------------------------------------------------*/
 html,
 body {
-  margin: 0 auto;
+  margin: auto;
   font-family: Verdana; 
-  scroll-behavior: smooth;
 }
 
 $font-sizing-map: (

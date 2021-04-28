@@ -1,15 +1,18 @@
 {
   "name": "jomou",
-  "description": "Task Tracker",
+  "description": "crypto graphql",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "apollo-server": "^2.23.0",
+    "apollo-server-micro": "^2.23.0",
     "classnames": "^2.3.1",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
     "next": "10.0.8",
     "node-sass": "^5.0.0",
     "react": "17.0.1",
