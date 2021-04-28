@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-starting-template",
-  "description": "This is going to be the greatest app ever!!!",
+  "name": "jomou",
+  "description": "Task Tracker",
   "version": "0.1.0",
   "private": true,
   "scripts": {
